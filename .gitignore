@@ -1,0 +1,34 @@
+# Terraform downloaded files
+**/.terraform/
+
+# Terraform state and local execution files
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated model artifacts
+artifacts/*.pkl
+
+# macOS
+.DS_Store
+
+# Editor settings
+.vscode/
